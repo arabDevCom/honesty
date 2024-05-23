@@ -38,6 +38,15 @@
                     </a>
                 </li>
 
+                <li class="nav-item  {{ in_array(request()->route()->getName(),['news.index', 'news.create', 'news.edit', 'news.show'])? 'menu-open': '' }}">
+                    <a href="{{ route('news.index') }}" class="nav-link">
+                        <i class="nav-icon fas fa-circle"></i>
+                        <p>
+                            @lang('dashboard.news')
+                        </p>
+                    </a>
+                </li>
+
                 <li class="nav-item  {{ in_array(request()->route()->getName(),['settings.index', 'settings.create', 'settings.edit', 'settings.show'])? 'menu-open': '' }}">
                     <a href="{{ route('settings.index') }}" class="nav-link">
                         <i class="nav-icon fas fa-circle"></i>

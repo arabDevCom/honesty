@@ -13,5 +13,6 @@ interface MemberRepositoryInterface
     public function getAllCountry();
     public function getAllGovernorates();
     public function getSettings();
+    public function getNotifications();
 
 }

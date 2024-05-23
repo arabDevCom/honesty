@@ -22,4 +22,5 @@ Route::group(['prefix' => 'auth', 'controller' => AuthController::class], functi
         Route::get('getAllNews' ,[MemberController::class , 'getAllNews']);
         Route::get('getSettings' ,[MemberController::class , 'getSettings']);
         Route::post('StoreToken' ,[MemberController::class , 'StoreToken']);
+        Route::get('getNotifications' ,[MemberController::class , 'getNotifications']);
 

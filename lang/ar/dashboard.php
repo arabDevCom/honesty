@@ -2,6 +2,7 @@
 
 return [
     'topBusiness' => 'المطورن العرب',
+    'news' => 'الاخبار',
     'sponsor' => 'الراعي',
     'members' => 'الاعضاء',
     'postion' => 'الموقع',

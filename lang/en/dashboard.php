@@ -4,6 +4,7 @@ return [
     'topBusiness' => 'Top Business',
     'sponsor' => 'sponsor',
     'members' => 'members',
+    'news' => 'news',
     'postion' => 'postion',
     'in' => 'in',
     'out' => 'out',

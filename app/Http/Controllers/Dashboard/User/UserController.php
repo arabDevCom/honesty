@@ -16,7 +16,6 @@ class UserController extends Controller
 
     public function index()
     {
-        return 4;
         return $this->user->index();
     }
 

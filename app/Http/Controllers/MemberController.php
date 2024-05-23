@@ -53,6 +53,11 @@ class MemberController extends Controller
       return $this->memebers->StoreToken($request);
     }
 
+    public function getNotifications()
+    {
+      return $this->memebers->getNotifications();
+    }
+
 
 
 }
